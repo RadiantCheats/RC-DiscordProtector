@@ -1,0 +1,105 @@
+Auth:
+[ ] Sign in with Discord login
+[x] Sign in with Discord token
+[ ] Sign in with QR code
+
+Chore:
+[ ] Make an actual UI
+
+Mock->Real Events:
+[x] MessageCreate
+[x] MessageDelete
+[ ] MessageDeleteBulk
+[ ] MessageUpdate
+
+[ ] ChannelCreate
+[ ] ChannelDelete
+[ ] ChannelUpdate
+
+[ ] GuildCreate
+[ ] GuildDelete
+[ ] GuildUpdate
+
+[ ] GuildRoleCreate
+[ ] GuildRoleDelete
+[ ] GuildRoleUpdate
+
+[ ] GuildInviteCreate
+[ ] GuildInviteDelete
+
+[ ] GuildEmojiCreate
+[ ] GuildEmojiDelete
+[ ] GuildEmojiUpdate
+
+[ ] GuildBanAdd
+[ ] GuildBanRemove
+
+[ ] MessageReactionStuff
+
+[ ] ThreadCreate
+[ ] ThreadDelete
+[ ] ThreadUpdate
+[ ] ThreadEtc...
+
+[ ] InteractionCreate
+
+Real->Mock Events:
+[x] MessageCreate
+[x] MessageDelete
+[ ] MessageDeleteBulk
+[ ] MessageUpdate
+
+[x] ChannelCreate
+[x] ChannelDelete
+[ ] ChannelUpdate
+
+[ ] GuildCreate
+[ ] GuildDelete
+[ ] GuildUpdate
+
+[ ] GuildRoleCreate
+[ ] GuildRoleDelete
+[ ] GuildRoleUpdate
+
+[ ] GuildInviteCreate
+[ ] GuildInviteDelete
+
+[ ] GuildEmojiCreate
+[ ] GuildEmojiDelete
+[ ] GuildEmojiUpdate
+
+[ ] GuildBanAdd
+[ ] GuildBanRemove
+
+[ ] MessageReactionStuff
+
+[ ] ThreadCreate
+[ ] ThreadDelete
+[ ] ThreadUpdate
+[ ] ThreadEtc...
+
+[ ] InteractionCreate
+
+Fix:
+- [DONE] roles need to be reversed
+- [DONE] everyone role not having perms in either the role or channels
+
+Features:
+- command functionality with the bot
+- [DONE (partial)] dm functionality
+- [DONE] add log (like the reply thing) for user that used a command
+- mentioning from real account `m@luck`
+
+- [DONE] check for role change
+- [DONE] check for nickname change?
+- RemoveConnection.js
+- [DONE] fix msg editing
+    - not finished interactions editing
+- [DONE] reply functionality for real acc
+- "warning, roles are unsynced" when alt account adds roles to real account in mock server and has access
+- [DONE] channel mentions -> mock channel
+- [DONE] role mentions -> mock role mentioning
+
+- interactions don't work on webhooks, only links, might have to use "#addBot" on the guild
+
+- could set tofake and toreals using role/channel positions

@@ -1,0 +1,2896 @@
+{
+  "name": "DiscordAPIError",
+  "message": "Invalid Form Body\nchannels: Channels with a parent_id must appear after their category channel",
+  "method": "post",
+  "path": "/guilds",
+  "code": 50035,
+  "httpStatus": 400,
+  "captcha": null,
+  "requestData": {
+    "json": {
+      "name": "Radiant Private",
+      "icon": "data:image/jpg;base64,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",
+      "roles": [
+        {
+          "id": "983765626675953744",
+          "name": "@everyone",
+          "color": 0,
+          "hoist": false,
+          "position": 0,
+          "mentionable": false
+        },
+        {
+          "id": "983765692891426876",
+          "name": ".",
+          "color": 0,
+          "hoist": false,
+          "position": 50,
+          "mentionable": false
+        },
+        {
+          "id": "983771215099494493",
+          "name": "Ticket Tool",
+          "color": 0,
+          "hoist": false,
+          "position": 4,
+          "mentionable": false
+        },
+        {
+          "id": "984544003766751255",
+          "name": "Xenon",
+          "color": 0,
+          "hoist": false,
+          "position": 3,
+          "mentionable": false
+        },
+        {
+          "id": "987085250393960502",
+          "name": "Radiant Community",
+          "color": 0,
+          "hoist": false,
+          "position": 5,
+          "mentionable": false
+        },
+        {
+          "id": "989259748601892934",
+          "name": "Radiant",
+          "color": 2088763,
+          "hoist": true,
+          "position": 49,
+          "mentionable": false
+        },
+        {
+          "id": "989259762392780800",
+          "name": "Radiant Bots",
+          "color": 15384669,
+          "hoist": false,
+          "position": 48,
+          "mentionable": false
+        },
+        {
+          "id": "989259763894325358",
+          "name": "--------------",
+          "color": 0,
+          "hoist": false,
+          "position": 47,
+          "mentionable": false
+        },
+        {
+          "id": "989259766800986193",
+          "name": "Management",
+          "color": 16711680,
+          "hoist": true,
+          "position": 46,
+          "mentionable": false
+        },
+        {
+          "id": "989259768893935717",
+          "name": "Administration",
+          "color": 7785962,
+          "hoist": true,
+          "position": 45,
+          "mentionable": false
+        },
+        {
+          "id": "989259769850257509",
+          "name": "Staff of the Month",
+          "color": 14988288,
+          "hoist": true,
+          "position": 43,
+          "mentionable": false
+        },
+        {
+          "id": "989259771347615794",
+          "name": "Senior Moderation",
+          "color": 15246071,
+          "hoist": true,
+          "position": 44,
+          "mentionable": false
+        },
+        {
+          "id": "989259772295520277",
+          "name": "Moderation",
+          "color": 3304684,
+          "hoist": true,
+          "position": 42,
+          "mentionable": false
+        },
+        {
+          "id": "989259773088251906",
+          "name": "Support",
+          "color": 1752220,
+          "hoist": true,
+          "position": 41,
+          "mentionable": false
+        },
+        {
+          "id": "989259774417838100",
+          "name": "Trial Support",
+          "color": 4908226,
+          "hoist": true,
+          "position": 40,
+          "mentionable": false
+        },
+        {
+          "id": "989259775634182164",
+          "name": "Idiocy Prevention Manager",
+          "color": 16581379,
+          "hoist": true,
+          "position": 36,
+          "mentionable": false
+        },
+        {
+          "id": "989259776410157147",
+          "name": "Bot Developer",
+          "color": 7358187,
+          "hoist": true,
+          "position": 38,
+          "mentionable": false
+        },
+        {
+          "id": "989259777324482630",
+          "name": "Designer",
+          "color": 3960022,
+          "hoist": true,
+          "position": 30,
+          "mentionable": false
+        },
+        {
+          "id": "989259778247245894",
+          "name": "Staff",
+          "color": 0,
+          "hoist": false,
+          "position": 37,
+          "mentionable": false
+        },
+        {
+          "id": "989259780067569734",
+          "name": "daddy brav",
+          "color": 8848383,
+          "hoist": false,
+          "position": 35,
+          "mentionable": false
+        },
+        {
+          "id": "989259780805775380",
+          "name": "Former Staff",
+          "color": 3066993,
+          "hoist": true,
+          "position": 33,
+          "mentionable": false
+        },
+        {
+          "id": "989259781850169355",
+          "name": "Sponsored",
+          "color": 15844367,
+          "hoist": true,
+          "position": 31,
+          "mentionable": false
+        },
+        {
+          "id": "989259783049715742",
+          "name": "Special Person",
+          "color": 10092020,
+          "hoist": true,
+          "position": 29,
+          "mentionable": false
+        },
+        {
+          "id": "989259783855030283",
+          "name": "Menu Staff",
+          "color": 9696241,
+          "hoist": true,
+          "position": 28,
+          "mentionable": false
+        },
+        {
+          "id": "989259786468081714",
+          "name": "Friends",
+          "color": 15155059,
+          "hoist": true,
+          "position": 26,
+          "mentionable": false
+        },
+        {
+          "id": "989259787445342288",
+          "name": "Buyer",
+          "color": 3776731,
+          "hoist": true,
+          "position": 25,
+          "mentionable": false
+        },
+        {
+          "id": "989259788514889738",
+          "name": "Verified",
+          "color": 6009653,
+          "hoist": true,
+          "position": 24,
+          "mentionable": false
+        },
+        {
+          "id": "989259789429264384",
+          "name": "--------------",
+          "color": 0,
+          "hoist": false,
+          "position": 23,
+          "mentionable": false
+        },
+        {
+          "id": "989259793032179783",
+          "name": "2Take1",
+          "color": 5898415,
+          "hoist": false,
+          "position": 21,
+          "mentionable": false
+        },
+        {
+          "id": "989259794470805535",
+          "name": "Cherax",
+          "color": 20223,
+          "hoist": false,
+          "position": 20,
+          "mentionable": false
+        },
+        {
+          "id": "989259795519385610",
+          "name": "Phantom-X",
+          "color": 7143626,
+          "hoist": false,
+          "position": 11,
+          "mentionable": false
+        },
+        {
+          "id": "989259796521836634",
+          "name": "Midnight",
+          "color": 9031664,
+          "hoist": false,
+          "position": 15,
+          "mentionable": false
+        },
+        {
+          "id": "989259797348102205",
+          "name": "Delusion",
+          "color": 16776698,
+          "hoist": false,
+          "position": 18,
+          "mentionable": false
+        },
+        {
+          "id": "989259798409252875",
+          "name": "Ovix",
+          "color": 16244282,
+          "hoist": false,
+          "position": 12,
+          "mentionable": false
+        },
+        {
+          "id": "989259799352983592",
+          "name": "Ilusion Engine",
+          "color": 12539372,
+          "hoist": false,
+          "position": 16,
+          "mentionable": false
+        },
+        {
+          "id": "989259800397361172",
+          "name": "Stand",
+          "color": 15597823,
+          "hoist": false,
+          "position": 8,
+          "mentionable": false
+        },
+        {
+          "id": "989259804411322458",
+          "name": "X-Force",
+          "color": 16711736,
+          "hoist": false,
+          "position": 7,
+          "mentionable": false
+        },
+        {
+          "id": "989259805334048779",
+          "name": "Fragment",
+          "color": 15804452,
+          "hoist": false,
+          "position": 17,
+          "mentionable": false
+        },
+        {
+          "id": "989259806542020629",
+          "name": "NewWay",
+          "color": 56575,
+          "hoist": false,
+          "position": 14,
+          "mentionable": false
+        },
+        {
+          "id": "989259807435419718",
+          "name": "0xCheats",
+          "color": 42744,
+          "hoist": false,
+          "position": 22,
+          "mentionable": false
+        },
+        {
+          "id": "989259808119062631",
+          "name": "ReBound",
+          "color": 16736512,
+          "hoist": false,
+          "position": 10,
+          "mentionable": false
+        },
+        {
+          "id": "989259809486430248",
+          "name": "South",
+          "color": 15158332,
+          "hoist": false,
+          "position": 9,
+          "mentionable": false
+        },
+        {
+          "id": "989259810086215703",
+          "name": "Circuit",
+          "color": 1,
+          "hoist": false,
+          "position": 19,
+          "mentionable": false
+        },
+        {
+          "id": "989259811021549628",
+          "name": "Orbit",
+          "color": 9936031,
+          "hoist": false,
+          "position": 13,
+          "mentionable": false
+        },
+        {
+          "id": "989259812581802105",
+          "name": "--------------",
+          "color": 0,
+          "hoist": false,
+          "position": 6,
+          "mentionable": false
+        },
+        {
+          "id": "989274296079761511",
+          "name": "Radiant Booster",
+          "color": 16023551,
+          "hoist": true,
+          "position": 32,
+          "mentionable": false
+        },
+        {
+          "id": "1003707565533835317",
+          "name": "GiveawayBot",
+          "color": 0,
+          "hoist": false,
+          "position": 2,
+          "mentionable": false
+        },
+        {
+          "id": "1004814951346622534",
+          "name": "--------------",
+          "color": 0,
+          "hoist": false,
+          "position": 34,
+          "mentionable": false
+        },
+        {
+          "id": "1004815229844193280",
+          "name": "--------------",
+          "color": 0,
+          "hoist": false,
+          "position": 39,
+          "mentionable": false
+        },
+        {
+          "id": "1004817025413173288",
+          "name": "--------------",
+          "color": 0,
+          "hoist": false,
+          "position": 27,
+          "mentionable": false
+        },
+        {
+          "id": "1007265346962604032",
+          "name": "..",
+          "color": 0,
+          "hoist": false,
+          "position": 51,
+          "mentionable": false
+        },
+        {
+          "id": "1025868301374595074",
+          "name": "Radiant",
+          "color": 0,
+          "hoist": false,
+          "position": 1,
+          "mentionable": false
+        }
+      ],
+      "channels": [
+        {
+          "id": "989259834945863680",
+          "type": 0,
+          "name": "other-logs",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 52,
+          "parent_id": "989259768860393572",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1024",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259818822930432",
+          "type": 0,
+          "name": "old-staff-applications",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 51,
+          "parent_id": "989259768860393572",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": "1024",
+              "allow": "515396388928"
+            }
+          ]
+        },
+        {
+          "id": "989259829472268378",
+          "type": 0,
+          "name": "ideas-keep-it-serious-please",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 50,
+          "parent_id": "989259768860393572",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "377958173696"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "805321744",
+              "allow": null
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "8192"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            }
+          ]
+        },
+        {
+          "id": "989259832601235486",
+          "type": 0,
+          "name": "📋↣｜ticket-transcripts",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 49,
+          "parent_id": "989259768860393572",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": "2048",
+              "allow": "1049600"
+            }
+          ]
+        },
+        {
+          "id": "989259833754660895",
+          "type": 0,
+          "name": "📋↣｜bot-error-logs",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 48,
+          "parent_id": "989259768860393572",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1024",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259831682678865",
+          "type": 0,
+          "name": "📋↣｜moderation-logs",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 47,
+          "parent_id": "989259768860393572",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": "2048",
+              "allow": "1024"
+            }
+          ]
+        },
+        {
+          "id": "989259830848028722",
+          "type": 0,
+          "name": "📋↣｜ticket-logs",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 46,
+          "parent_id": "989259768860393572",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259773088251906",
+              "type": 0,
+              "deny": null,
+              "allow": null
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": "2048",
+              "allow": "1024"
+            }
+          ]
+        },
+        {
+          "id": "989259828398530610",
+          "type": 0,
+          "name": "🤖↣｜staff-commands",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 45,
+          "parent_id": "989259768138969128",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "805321744",
+              "allow": null
+            },
+            {
+              "id": "989259780805775380",
+              "type": 0,
+              "deny": "1024",
+              "allow": "2048"
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "1059840"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            }
+          ]
+        },
+        {
+          "id": "989259827349962854",
+          "type": 0,
+          "name": "💬↣｜off-topic-chat",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 44,
+          "parent_id": "989259768138969128",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "1051648"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "3072"
+            },
+            {
+              "id": "989259775634182164",
+              "type": 0,
+              "deny": null,
+              "allow": "3073"
+            },
+            {
+              "id": "989259780805775380",
+              "type": 0,
+              "deny": null,
+              "allow": "3072"
+            }
+          ]
+        },
+        {
+          "id": "1012747265489776670",
+          "type": 0,
+          "name": "🔐↣｜staff-chat",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 43,
+          "parent_id": "989259768138969128",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259775634182164",
+              "type": 0,
+              "deny": null,
+              "allow": "3072"
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "1117184"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "805321744",
+              "allow": null
+            },
+            {
+              "id": "989259780067569734",
+              "type": 0,
+              "deny": null,
+              "allow": "137439317056"
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "8192"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            }
+          ]
+        },
+        {
+          "id": "989259825156333618",
+          "type": 0,
+          "name": "📋↣｜staff-faq",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 42,
+          "parent_id": "989259768138969128",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": "2048",
+              "allow": "1024"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1024",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259822736228483",
+          "type": 0,
+          "name": "📢↣｜staff-news",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 41,
+          "parent_id": "989259768138969128",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "805321744",
+              "allow": null
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": "2048",
+              "allow": "1115200"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "3072"
+            },
+            {
+              "id": "989259775634182164",
+              "type": 0,
+              "deny": "2048",
+              "allow": null
+            },
+            {
+              "id": "989259780067569734",
+              "type": 0,
+              "deny": null,
+              "allow": "65600"
+            }
+          ]
+        },
+        {
+          "id": "989259817648533544",
+          "type": 0,
+          "name": "snows-to-do-list",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 40,
+          "parent_id": "1047989276450758676",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "515396389952"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "1008122652612894780",
+          "type": 0,
+          "name": "notes",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 39,
+          "parent_id": "1047989276450758676",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259766800986193",
+              "type": 0,
+              "deny": "1",
+              "allow": "805506064"
+            }
+          ]
+        },
+        {
+          "id": "1046507033320488980",
+          "type": 0,
+          "name": "x-mas-plans",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 38,
+          "parent_id": "1047989276450758676",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259766800986193",
+              "type": 0,
+              "deny": "1",
+              "allow": "805506064"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "1046507069794177034",
+          "type": 0,
+          "name": "new-site-plans",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 37,
+          "parent_id": "1047989276450758676",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259766800986193",
+              "type": 0,
+              "deny": "1",
+              "allow": "805506064"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "1046512550369570956",
+          "type": 0,
+          "name": "n-c-t-a-d",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 36,
+          "parent_id": "1047989276450758676",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259766800986193",
+              "type": 0,
+              "deny": "1",
+              "allow": "805506064"
+            }
+          ]
+        },
+        {
+          "id": "1046816433381855253",
+          "type": 0,
+          "name": "youtube-jetty",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 35,
+          "parent_id": "1047989276450758676",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259766800986193",
+              "type": 0,
+              "deny": "1",
+              "allow": "805506064"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "808802320128671794",
+              "type": 1,
+              "deny": null,
+              "allow": "3072"
+            }
+          ]
+        },
+        {
+          "id": "989259820991393912",
+          "type": 0,
+          "name": "bot-bugs",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 34,
+          "parent_id": "989259766750658592",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1024",
+              "allow": null
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            }
+          ]
+        },
+        {
+          "id": "1047989496471359518",
+          "type": 0,
+          "name": "staff-applications-notes",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 33,
+          "parent_id": "989259766750658592",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": "1024",
+              "allow": "515396388928"
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "1029799677169770576",
+          "type": 0,
+          "name": "↣｜staff-activity",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 32,
+          "parent_id": "989259766750658592",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "3072"
+            }
+          ]
+        },
+        {
+          "id": "1011716407257485342",
+          "type": 0,
+          "name": "↣｜mod-chat",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 31,
+          "parent_id": "989259766750658592",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "3072"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259772295520277",
+              "type": 0,
+              "deny": null,
+              "allow": "3072"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259816381845504",
+          "type": 0,
+          "name": "↣｜bot-dev-chat",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 30,
+          "parent_id": "989259766750658592",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259776410157147",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259766800986193",
+              "type": 0,
+              "deny": "1",
+              "allow": "805506064"
+            }
+          ]
+        },
+        {
+          "id": "989259814393757736",
+          "type": 0,
+          "name": "↣｜senior-mod-chat",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 29,
+          "parent_id": "989259766750658592",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "3072"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            }
+          ]
+        },
+        {
+          "id": "989259813173198849",
+          "type": 0,
+          "name": "↣｜admin-chat",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 28,
+          "parent_id": "989259766750658592",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259811805855825",
+          "type": 0,
+          "name": "↣｜manager-chat",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 27,
+          "parent_id": "989259766750658592",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259766800986193",
+              "type": 0,
+              "deny": "1",
+              "allow": "805506064"
+            }
+          ]
+        },
+        {
+          "id": "989259810849566790",
+          "type": 0,
+          "name": "「🚀」booster-giveaways",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 26,
+          "parent_id": "989259765693710410",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989274296079761511",
+              "type": 0,
+              "deny": "2048",
+              "allow": "66624"
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "268438544"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259809545146388",
+          "type": 0,
+          "name": "「🚀」booster-general",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 25,
+          "parent_id": "989259765693710410",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1024",
+              "allow": null
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "1040"
+            },
+            {
+              "id": "989274296079761511",
+              "type": 0,
+              "deny": null,
+              "allow": "137439333440"
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            }
+          ]
+        },
+        {
+          "id": "989259808064540683",
+          "type": 0,
+          "name": "「🌀」themes",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 24,
+          "parent_id": "989259764452171806",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": null,
+              "allow": "99392"
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "3072"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1024",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259807271817246",
+          "type": 0,
+          "name": "「📋」suggestions",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 23,
+          "parent_id": "989259764452171806",
+          "user_limit": null,
+          "rate_limit_per_user": 21600,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "132096",
+              "allow": null
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": null,
+              "allow": "1049600"
+            }
+          ]
+        },
+        {
+          "id": "989259806319718481",
+          "type": 0,
+          "name": "「✅」feedback",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 22,
+          "parent_id": "989259764452171806",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "854229720933597216",
+              "type": 1,
+              "deny": "2112",
+              "allow": "65536"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "132096",
+              "allow": null
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": null,
+              "allow": "1049600"
+            }
+          ]
+        },
+        {
+          "id": "989259805065625650",
+          "type": 0,
+          "name": "「😂」memes",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 21,
+          "parent_id": "989259763504255116",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1024",
+              "allow": null
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": null,
+              "allow": "1049600"
+            }
+          ]
+        },
+        {
+          "id": "989259804130299924",
+          "type": 0,
+          "name": "「🤖」bot-commands",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 20,
+          "parent_id": "989259763504255116",
+          "user_limit": null,
+          "rate_limit_per_user": 5,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1024",
+              "allow": null
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": null,
+              "allow": "1049600"
+            }
+          ]
+        },
+        {
+          "id": "989259802918141962",
+          "type": 0,
+          "name": "「🌎」international",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 19,
+          "parent_id": "989259763504255116",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1024",
+              "allow": null
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "32768"
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": null,
+              "allow": "1344576"
+            }
+          ]
+        },
+        {
+          "id": "989259800665784330",
+          "type": 0,
+          "name": "「💬」general",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 18,
+          "parent_id": "989259763504255116",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259783049715742",
+              "type": 0,
+              "deny": null,
+              "allow": "32768"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": "1",
+              "allow": "1426496"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1024",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259799453642793",
+          "type": 0,
+          "name": "「📬」discord-support",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 17,
+          "parent_id": "989259762669604884",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": null
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": "103079217152",
+              "allow": "1049600"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259798593798254",
+          "type": 0,
+          "name": "「🎫」ticket-rules",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 16,
+          "parent_id": "989259762669604884",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": "2112",
+              "allow": "1024"
+            }
+          ]
+        },
+        {
+          "id": "989259797700444220",
+          "type": 0,
+          "name": "「🎫」ticket-support",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 15,
+          "parent_id": "989259762669604884",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": "65536"
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": "103079217216",
+              "allow": "1049600"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            }
+          ]
+        },
+        {
+          "id": "989259796685414460",
+          "type": 0,
+          "name": "「🚨」help-chat",
+          "topic": "Community Support",
+          "nsfw": false,
+          "bitrate": null,
+          "position": 14,
+          "parent_id": "989259762669604884",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": null,
+              "allow": "1049600"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1024",
+              "allow": "65536"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            }
+          ]
+        },
+        {
+          "id": "989259795611656223",
+          "type": 0,
+          "name": "「📬」faq",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 13,
+          "parent_id": "989259762669604884",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "3088"
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": "103079218176",
+              "allow": "1114112"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259772295520277",
+              "type": 0,
+              "deny": "1024",
+              "allow": "10240"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259768860393572",
+          "type": 4,
+          "name": "❆↽⇀〔Logs〕↽⇀❆",
+          "bitrate": null,
+          "position": 12,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259793325756487",
+          "type": 0,
+          "name": "「🎉」discount-codes",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 12,
+          "parent_id": "989259757594476674",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": "65536"
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": "377957124096",
+              "allow": "1049600"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535530306641"
+            },
+            {
+              "id": "989259772295520277",
+              "type": 0,
+              "deny": null,
+              "allow": "1051648"
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "1049600"
+            }
+          ]
+        },
+        {
+          "id": "989259768138969128",
+          "type": 4,
+          "name": "❆↽⇀〔STAFF〕↽⇀❆",
+          "bitrate": null,
+          "position": 11,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "805321744",
+              "allow": null
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "1093941067601"
+            }
+          ]
+        },
+        {
+          "id": "989259792000380979",
+          "type": 0,
+          "name": "「🎉」giveaways",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 11,
+          "parent_id": "989259757594476674",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3136",
+              "allow": "65536"
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": "377957125121",
+              "allow": "1114176"
+            },
+            {
+              "id": "989259772295520277",
+              "type": 0,
+              "deny": null,
+              "allow": "1051648"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535530306641"
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "1051648"
+            }
+          ]
+        },
+        {
+          "id": "989259790419099708",
+          "type": 0,
+          "name": "「📣」updates",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 10,
+          "parent_id": "989259757594476674",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535530306641"
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": "2048",
+              "allow": "1024"
+            },
+            {
+              "id": "989259772295520277",
+              "type": 0,
+              "deny": null,
+              "allow": "3072"
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": "377957125121",
+              "allow": "1114176"
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "1051648"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": "65536"
+            }
+          ]
+        },
+        {
+          "id": "1047989276450758676",
+          "type": 4,
+          "name": "snow",
+          "bitrate": null,
+          "position": 10,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": []
+        },
+        {
+          "id": "989259766750658592",
+          "type": 4,
+          "name": "❆↽⇀〔Administrative〕↽⇀❆",
+          "bitrate": null,
+          "position": 9,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259789152423987",
+          "type": 0,
+          "name": "「⚡」announcements",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 9,
+          "parent_id": "989259757594476674",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": "65536"
+            },
+            {
+              "id": "989259772295520277",
+              "type": 0,
+              "deny": "2048",
+              "allow": "1048576"
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "1049600"
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": "2048",
+              "allow": "1024"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535530306641"
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": "103079217153",
+              "allow": "1115200"
+            }
+          ]
+        },
+        {
+          "id": "989259765693710410",
+          "type": 4,
+          "name": "❆↽⇀〔Boosters〕↽⇀❆",
+          "bitrate": null,
+          "position": 8,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "1093941067601"
+            }
+          ]
+        },
+        {
+          "id": "989259788078682223",
+          "type": 0,
+          "name": "verify",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 8,
+          "parent_id": "989259757594476674",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "2048",
+              "allow": "66560"
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": "2048",
+              "allow": "1024"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            }
+          ]
+        },
+        {
+          "id": "989259764452171806",
+          "type": 4,
+          "name": "❆↽⇀〔Other〕↽⇀❆",
+          "bitrate": null,
+          "position": 7,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "1093941067601"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "132096",
+              "allow": "2048"
+            },
+            {
+              "id": "543886080999555114",
+              "type": 1,
+              "deny": "2048",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259785683759114",
+          "type": 0,
+          "name": "「📜」rules",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 7,
+          "parent_id": "989259748870324334",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3073",
+              "allow": null
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": "2048",
+              "allow": "1024"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            }
+          ]
+        },
+        {
+          "id": "989259763504255116",
+          "type": 4,
+          "name": "❆↽⇀〔CHATTING〕↽⇀❆",
+          "bitrate": null,
+          "position": 6,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "1093941067601"
+            }
+          ]
+        },
+        {
+          "id": "1048973707336503346",
+          "type": 0,
+          "name": "utopia-refund",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 6,
+          "parent_id": "989259742826344500",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "117760"
+            },
+            {
+              "id": "499642446930640912",
+              "type": 1,
+              "deny": null,
+              "allow": "117760"
+            },
+            {
+              "id": "1025867821256818779",
+              "type": 1,
+              "deny": null,
+              "allow": "117760"
+            }
+          ]
+        },
+        {
+          "id": "989259762669604884",
+          "type": 4,
+          "name": "❆↽⇀〔HELP〕↽⇀❆",
+          "bitrate": null,
+          "position": 5,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "1093941067601"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259780239556618",
+          "type": 0,
+          "name": "ticket-whisper-high",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 5,
+          "parent_id": "989259742826344500",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259772295520277",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1024",
+              "allow": null
+            },
+            {
+              "id": "989259771347615794",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259769850257509",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            },
+            {
+              "id": "989259773088251906",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            },
+            {
+              "id": "989259774417838100",
+              "type": 0,
+              "deny": null,
+              "allow": "1024"
+            }
+          ]
+        },
+        {
+          "id": "989259757594476674",
+          "type": 4,
+          "name": "❆↽⇀〔ANNOUNCEMENTS〕↽⇀❆",
+          "bitrate": null,
+          "position": 4,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": "65536"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "1093941067601"
+            }
+          ]
+        },
+        {
+          "id": "989259772463304855",
+          "type": 0,
+          "name": "ticket-whisper-middle",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 4,
+          "parent_id": "989259735251447888",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1049600",
+              "allow": null
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "68608"
+            }
+          ]
+        },
+        {
+          "id": "989259748870324334",
+          "type": 4,
+          "name": "❆↽⇀〔INFORMATION〕↽⇀❆",
+          "bitrate": null,
+          "position": 3,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "1093941067601"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "1049019084639047812",
+          "type": 0,
+          "name": "ticket-41",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 3,
+          "parent_id": "989259733326241812",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "117760"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "733370661652791407",
+              "type": 1,
+              "deny": null,
+              "allow": "117760"
+            },
+            {
+              "id": "1025867821256818779",
+              "type": 1,
+              "deny": null,
+              "allow": "117760"
+            }
+          ]
+        },
+        {
+          "id": "989259742826344500",
+          "type": 4,
+          "name": "high",
+          "bitrate": null,
+          "position": 2,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "1093941067601"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1049600",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259824279736320",
+          "type": 2,
+          "name": "🗣 Staff VC",
+          "nsfw": false,
+          "bitrate": 64000,
+          "position": 2,
+          "parent_id": "989259768138969128",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "1049600"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1049600",
+              "allow": null
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "698267205457"
+            },
+            {
+              "id": "989259775634182164",
+              "type": 0,
+              "deny": null,
+              "allow": "1049600"
+            },
+            {
+              "id": "989259780805775380",
+              "type": 0,
+              "deny": null,
+              "allow": "1049600"
+            }
+          ]
+        },
+        {
+          "id": "1049015884892622899",
+          "type": 0,
+          "name": "ticket-39",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 2,
+          "parent_id": "989259733326241812",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "117760"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "1025867821256818779",
+              "type": 1,
+              "deny": null,
+              "allow": "117760"
+            },
+            {
+              "id": "456789416501837824",
+              "type": 1,
+              "deny": null,
+              "allow": "117760"
+            }
+          ]
+        },
+        {
+          "id": "989259735251447888",
+          "type": 4,
+          "name": "middle",
+          "bitrate": null,
+          "position": 1,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1049600",
+              "allow": null
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "1093941067601"
+            }
+          ]
+        },
+        {
+          "id": "989259801697587231",
+          "type": 2,
+          "name": "General",
+          "nsfw": false,
+          "bitrate": 64000,
+          "position": 1,
+          "parent_id": "989259763504255116",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "698267205457"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1049600",
+              "allow": null
+            },
+            {
+              "id": "989259788514889738",
+              "type": 0,
+              "deny": null,
+              "allow": "1049600"
+            }
+          ]
+        },
+        {
+          "id": "1046556258506920038",
+          "type": 0,
+          "name": "ticket-35",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 1,
+          "parent_id": "989259733326241812",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "1025867821256818779",
+              "type": 1,
+              "deny": null,
+              "allow": "117760"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "3072",
+              "allow": null
+            },
+            {
+              "id": "824320449135116359",
+              "type": 1,
+              "deny": null,
+              "allow": "117760"
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "117760"
+            }
+          ]
+        },
+        {
+          "id": "989259733326241812",
+          "type": 4,
+          "name": "Support Tickets",
+          "bitrate": null,
+          "position": 0,
+          "parent_id": null,
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1049600",
+              "allow": null
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "1093941067601"
+            }
+          ]
+        },
+        {
+          "id": "989259769648906352",
+          "type": 2,
+          "name": "Support",
+          "nsfw": false,
+          "bitrate": 64000,
+          "position": 0,
+          "parent_id": "989259733326241812",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "3214848"
+            },
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "698267205457"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1049600",
+              "allow": null
+            }
+          ]
+        },
+        {
+          "id": "989259771322466434",
+          "type": 0,
+          "name": "ticket-whisper",
+          "topic": null,
+          "nsfw": false,
+          "bitrate": null,
+          "position": 0,
+          "parent_id": "989259733326241812",
+          "user_limit": null,
+          "rate_limit_per_user": null,
+          "rtc_region": null,
+          "video_quality_mode": null,
+          "permission_overwrites": [
+            {
+              "id": "989259768893935717",
+              "type": 0,
+              "deny": null,
+              "allow": "535529258065"
+            },
+            {
+              "id": "989259778247245894",
+              "type": 0,
+              "deny": null,
+              "allow": "68608"
+            },
+            {
+              "id": "983765626675953744",
+              "type": 0,
+              "deny": "1049600",
+              "allow": null
+            }
+          ]
+        }
+      ]
+    },
+    "files": []
+  }
+}
